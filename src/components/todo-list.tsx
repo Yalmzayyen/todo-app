@@ -30,7 +30,7 @@ import {
   XCircle
 } from "lucide-react"
 import { TaskDialog } from "./task-dialog"
-import { FilterDialog, FilterOptions } from "./filter-dialog"
+import {  FilterOptions } from "./filter-dialog"
 import {
   DropdownMenu,
   DropdownMenuContent,
