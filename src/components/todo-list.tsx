@@ -428,7 +428,7 @@ export function TodoList() {
                   <Plus className="w-8 h-8 text-primary" />
                 </div>
                 <p className="text-lg font-medium">No tasks yet</p>
-                <p className="text-sm text-muted-foreground mt-1">Click "New Task" to get started</p>
+                <p className="text-sm text-muted-foreground mt-1">Click &quot;New Task&quot; to get started</p>
               </motion.div>
             ) : (
               <motion.div
@@ -520,7 +520,7 @@ export function TodoList() {
                                       <AlertDialogHeader>
                                         <AlertDialogTitle>Delete task?</AlertDialogTitle>
                                         <AlertDialogDescription>
-                                          This will permanently delete "{task.title}".
+                                          This will permanently delete &quot;{task.title}&quot;.
                                         </AlertDialogDescription>
                                       </AlertDialogHeader>
                                       <AlertDialogFooter>
